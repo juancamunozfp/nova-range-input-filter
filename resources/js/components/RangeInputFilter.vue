@@ -18,7 +18,7 @@
 
       <div class="text-sm mx-2 text-center">{{ filter.options.dividerLabel }}</div>
 
-      <input class="flex items-center form-control form-input text-sm border-60"
+      <input class="w-full block form-control form-select form-control-sm form-select-bordered"
              :class="{ 'w-full': filter.options.fullWidth }"
              name="to"
              :type="filter.options.inputType"
