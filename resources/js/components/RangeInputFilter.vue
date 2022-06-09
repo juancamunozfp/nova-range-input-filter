@@ -1,14 +1,14 @@
 <template>
 
-  <div class="range-input-filter">
+  <div class="range-input-filter pt-2 pb-3">
 
-    <h3 class="text-sm uppercase tracking-wide text-80 bg-30 p-3">
+    <h3 class="px-3 text-xs uppercase font-bold tracking-wide">
       {{ filter.name }}
     </h3>
 
     <div class="flex p-2 flex-no-wrap items-center">
 
-      <input class="flex items-center form-control form-input text-sm border-60"
+      <input class="w-full block form-control form-select form-control-sm form-select-bordered"
              :class="{ 'w-full': filter.options.fullWidth }"
              name="from"
              :type="filter.options.inputType"
